@@ -55,7 +55,7 @@ public class Main {
         elevatorCabSecond.standOpenDoors();
         floor.setElevatorCallButtonStatus(false);
         elevatorCabSecond.sensorDetectsMovementBetweenDoors();
-        elevatorCabFirst.sensorDetectsAbsenceMovementBetweenDoors();
+        elevatorCabSecond.sensorDetectsAbsenceMovementBetweenDoors();
         elevatorCabSecond.pressFloorButton(1);
         elevatorCabSecond.pressDoorClosingButton();
         elevatorCabSecond.setCondition(Condition.CLOSEDOORS);
