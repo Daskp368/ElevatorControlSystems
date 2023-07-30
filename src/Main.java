@@ -5,8 +5,8 @@ public class Main {
         Floor floor = new Floor((byte) 1, (byte) 1);
 
         // Пассажир 1 вызывает лифт на 1м этаже и поднимается на 14 этаж
-        elevatorCabFirst.standCloseDoors();
         System.out.println("Пассажир 1 вызывает лифт на 1м этаже");
+        elevatorCabFirst.standCloseDoors();
         elevatorCabFirst.pressDoorOpeningButton();
         floor.setElevatorCallButtonStatus(true);
         elevatorCabFirst.setCondition(Condition.OPENDOORS);
